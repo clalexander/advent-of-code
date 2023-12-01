@@ -25,6 +25,7 @@ module.exports = {
     '@typescript-eslint/no-empty-interface': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
     'import/prefer-default-export': 'off',
+    'arrow-body-style': 'off',
     'class-methods-use-this': 'off',
     'no-continue': 'off',
     'no-nested-ternary': 'off',
