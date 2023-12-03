@@ -23,7 +23,7 @@ export const loadTaskResources = async <Args>(
   const [input, args] = await Promise.all([
     fs.readFile(join(baseUrl, file), { encoding: 'utf8' }),
     // TODO make this better
-    fs.readFile(join(baseUrl, `${file.split(/(.*)\..*/)[1]}args.json`), { encoding: 'utf8' })
+    fs.readFile(join(baseUrl, `${file.split(/(.*)\..*/)[1]}.args.json`), { encoding: 'utf8' })
       .catch(() => undefined),
   ]);
 
