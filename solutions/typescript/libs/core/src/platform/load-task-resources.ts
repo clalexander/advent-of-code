@@ -4,9 +4,11 @@ import { findNearestDirectoryNamed } from './find-nearest-directory-named';
 import { TaskMetadata } from './task-metadata';
 import { TaskResources } from './task-resources';
 
+const DEFAULT_FILE = process.env.TEST ? 'input.test.txt' : 'input.txt';
+
 export const loadTaskResources = async <Args>(
   metadata: TaskMetadata,
-  file = 'input.txt',
+  file = DEFAULT_FILE,
 ): Promise<TaskResources<string, Args>> => {
   const resoucesRoot = findNearestDirectoryNamed('resources');
   if (!resoucesRoot) {
