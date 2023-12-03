@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES2015",
+    "target": "ESNext",
     "lib": [
       "ES2020",
       "ESNext"
     ],
-    "module": "CommonJS",
+    "module": "ESNext",
     "moduleResolution": "Node",
   
     "esModuleInterop": true,
@@ -48,5 +48,9 @@
     "strictFunctionTypes": false,
     "strictNullChecks": true,
     "strictPropertyInitialization": false
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
   }
 }

@@ -30,6 +30,7 @@ module.exports = {
     'no-continue': 'off',
     'no-nested-ternary': 'off',
     'no-console': 'off',
+    'no-plusplus': 'off',
   },
   overrides: [
     {
