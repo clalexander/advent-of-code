@@ -1,0 +1,14 @@
+{
+  "name": "@clalexander/advent-of-code-core",
+  "version": "0.0.1",
+  "description": "Advent of Code core functions",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
