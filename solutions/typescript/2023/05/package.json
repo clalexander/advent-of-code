@@ -1,0 +1,23 @@
+{
+  "name": "@clalexander/advent-of-code-2023-05",
+  "version": "1.0.0",
+  "description": "Advent of Code 2023 05 solutions",
+  "private": true,
+  "type": "module",
+  "aoc": {
+    "day": 5,
+    "year": 2023
+  },
+  "scripts": {
+    "test:p1": "TEST=1 ts-node src/p1.ts",
+    "test:p2": "TEST=1 ts-node src/p2.ts",
+    "p1": "ts-node src/p1.ts",
+    "p2": "ts-node src/p2.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@clalexander/advent-of-code-core": "^0.0.1"
+  }
+}
